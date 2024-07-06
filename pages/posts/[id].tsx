@@ -13,7 +13,7 @@ type PostProps = {
 const Post = ({ post }: PostProps) => {
   return (
       <article className="prose lg:prose-xl bg-white shadow rounded-lg p-6">
-        <h1 className='text-3xl mb-4'>{post.title}</h1>
+        <h1 className='text-3xl mb-8'>{post.title}</h1>
         <p>{post.body}</p>
       </article>
   )

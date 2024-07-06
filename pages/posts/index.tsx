@@ -13,7 +13,6 @@ type PostsProps = {
 
 const Posts = ({ posts }: PostsProps) => {
   return (
-    <Layout title="Blog Posts - My Blog">
       <div className="border-4 border-dashed border-gray-200 rounded-lg p-4">
         <h2 className="text-2xl font-bold mb-4">Blog Posts</h2>
         <ul>
@@ -26,7 +25,6 @@ const Posts = ({ posts }: PostsProps) => {
           ))}
         </ul>
       </div>
-    </Layout>
   )
 }
 
