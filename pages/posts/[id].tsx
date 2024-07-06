@@ -12,12 +12,10 @@ type PostProps = {
 
 const Post = ({ post }: PostProps) => {
   return (
-    <Layout title={`${post.title} - My Blog`}>
       <article className="prose lg:prose-xl bg-white shadow rounded-lg p-6">
-        <h1>{post.title}</h1>
+        <h1 className='text-3xl mb-4'>{post.title}</h1>
         <p>{post.body}</p>
       </article>
-    </Layout>
   )
 }
 
